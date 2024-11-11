@@ -1,4 +1,9 @@
-package PACKAGE_NAME;
-
-public class Student {
+/**
+ * Запись, хранящая информацию о студенте.
+ * @param name  Имя студента.
+ * @param score Средний балл студента.
+ */
+public record Student(String name, Float score) {
+    // Конструктор для record автоматически создается компилятором.
+    // Нет необходимости объявлять его явно.
 }
