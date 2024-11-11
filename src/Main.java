@@ -14,7 +14,7 @@ public class Main {
         // Получение имен трех самых успешных студентов
         List<String> topStudents = resultsBoard.top3();
 
-        System.out.println(topStudents);
+        System.out.println("\nТоп 3 студента:");
         // Выводим имена трех самых успешных студентов
         for (String name : topStudents) {
             System.out.println(name);
